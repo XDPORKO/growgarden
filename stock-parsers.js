@@ -9,7 +9,7 @@ async function fetchGamersbergStock() {
     try {
       console.log(`Fetching stock data from gamersberg.com API (attempt ${attempt}/${maxRetries})...`);
       
-      const response = await axios.get('https://www.gamersberg.com/api/grow-a-garden/stock', {
+      const response = await axios.get('https://growagardenpro.com/stock/', {
         headers: {
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
           'Accept': 'application/json',
